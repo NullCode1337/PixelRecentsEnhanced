@@ -23,6 +23,8 @@
     <string name="disable_recents_live_tile_desc">Wyłącz podgląd na żywo, jeśli ekran ostatnich aplikacji działa niestabilnie</string>
     <string name="recents_background_opacity_title">Krycie tła ostatnich aplikacji</string>
     <string name="restarting_launcher">Restartowanie launchera&#x2026;</string>
+    <string name="restart_launcher_title">Zrestartuj</string>
+    <string name="restart_launcher_desc">Zrestartuj launcher, aby zastosować ustawienia</string>
     <string name="clear_all_button_title">Przycisk wyczyść wszystko</string>
     <string name="fixed_button_width_title">Stała szerokość każdego przycisku</string>
     <string name="recents_remove_screenshot_title">Usuń przycisk zrzut ekranu</string>

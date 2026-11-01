@@ -23,6 +23,8 @@
     <string name="disable_recents_live_tile_desc">若總覽過於卡頓可啟用以停用 Recents Live</string>
     <string name="recents_background_opacity_title">總覽背景透明度</string>
     <string name="restarting_launcher">正在重新啟動啟動器…</string>
+    <string name="restart_launcher_title">重新啟動</string>
+    <string name="restart_launcher_desc">重新啟動啟動器以套用設定</string>
     <string name="clear_all_button_title">「清除全部」按鈕</string>
     <string name="fixed_button_width_title">自動調整按鈕間隔</string>
     <string name="recents_remove_screenshot_title">隱藏螢幕截圖按鈕</string>

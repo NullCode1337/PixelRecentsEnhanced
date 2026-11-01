@@ -23,6 +23,8 @@
     <string name="disable_recents_live_tile_desc">Desativar botão ao vivo se a tela de recentes estiver com problemas</string>
     <string name="recents_background_opacity_title">Opacidade do fundo dos recentes</string>
     <string name="restarting_launcher">Reiniciando launcher…</string>
+    <string name="restart_launcher_title">Reiniciar</string>
+    <string name="restart_launcher_desc">Reinicie o launcher manualmente para aplicar qualquer configuração pendente</string>
     <string name="clear_all_button_title">Botão \"Limpar Tudo\"</string>
     <string name="fixed_button_width_title">Largura fixa para cada botão</string>
     <string name="recents_remove_screenshot_title">Remove screenshot button</string>

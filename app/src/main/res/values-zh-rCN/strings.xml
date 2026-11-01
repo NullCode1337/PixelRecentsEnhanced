@@ -23,6 +23,8 @@
     <string name="disable_recents_live_tile_desc">如果最近任务显示有问题则禁用动态 tile</string>
     <string name="recents_background_opacity_title">多任务栏背景透明度</string>
     <string name="restarting_launcher">正在重启启动器…</string>
+    <string name="restart_launcher_title">重启</string>
+    <string name="restart_launcher_desc">手动重启启动器以应用未生效的设置</string>
     <string name="clear_all_button_title">“清除所有”按钮</string>
     <string name="fixed_button_width_title">每个按钮的固定宽度</string>
     <string name="recents_remove_screenshot_title">删除屏幕截图按钮</string>

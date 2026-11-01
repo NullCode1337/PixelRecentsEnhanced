@@ -23,6 +23,8 @@
     <string name="disable_recents_live_tile_desc">Désactiver la tuile live si l\'écran des applications récentes est bugué</string>
     <string name="recents_background_opacity_title">Opacité de l\'arrière-plan des applications récentes</string>
     <string name="restarting_launcher">Redémarrage du launcher…</string>
+    <string name="restart_launcher_title">Redémarrer</string>
+    <string name="restart_launcher_desc">Redémarre le launcher manuellement pour appliquer tous les paramètres en attente</string>
     <string name="clear_all_button_title">Bouton Tout effacer</string>
     <string name="fixed_button_width_title">Largeur fixe pour chaque bouton</string>
     <string name="recents_remove_screenshot_title">Supprimer le bouton de capture d\'écran</string>

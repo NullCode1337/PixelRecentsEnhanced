@@ -23,6 +23,8 @@
     <string name="disable_recents_live_tile_desc">Desactivar desenfoque si la pantalla de recientes es problemática</string>
     <string name="recents_background_opacity_title">Opacidad de fondo de recientes</string>
     <string name="restarting_launcher">Reiniciando el launcher…</string>
+    <string name="restart_launcher_title">Reiniciar</string>
+    <string name="restart_launcher_desc">Reinicia el lanzador manualmente para aplicar cualquier configuración pendiente</string>
     <string name="clear_all_button_title">Botón \"Borrar todo\"</string>
     <string name="fixed_button_width_title">Ancho fijo de cada botón</string>
     <string name="recents_remove_screenshot_title">Quitar botón de captura de pantalla</string>

@@ -16,6 +16,7 @@ object Constants {
     // Preferences
     const val VIBRATE_UI = "vibrate_ui"
     const val XPOSED_HOOK_CHECK = "xposed_hook_check"
+    const val RESTART_LAUNCHER = "xposed_restartlauncher"
     const val ACTION_HOOK_CHECK_REQUEST = "${BuildConfig.APPLICATION_ID}.ACTION_HOOK_CHECK_REQUEST"
     const val ACTION_HOOK_CHECK_RESULT = "${BuildConfig.APPLICATION_ID}.ACTION_HOOK_CHECK_RESULT"
     const val DEBUG_REPORT_REQUEST = "xposed_debugreportrequest"

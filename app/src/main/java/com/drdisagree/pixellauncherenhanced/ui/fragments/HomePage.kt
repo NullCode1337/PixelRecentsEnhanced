@@ -3,10 +3,13 @@ package com.drdisagree.pixellauncherenhanced.ui.fragments
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.doOnPreDraw
+import androidx.preference.Preference
 import com.drdisagree.pixellauncherenhanced.R
+import com.drdisagree.pixellauncherenhanced.data.common.Constants.RESTART_LAUNCHER
 import com.drdisagree.pixellauncherenhanced.data.common.Constants.XPOSED_HOOK_CHECK
 import com.drdisagree.pixellauncherenhanced.ui.base.ControlledPreferenceFragmentCompat
 import com.drdisagree.pixellauncherenhanced.ui.preferences.HookCheckPreference
+import com.drdisagree.pixellauncherenhanced.utils.LauncherUtils.restartLauncher
 
 class HomePage : ControlledPreferenceFragmentCompat() {
 
@@ -34,6 +37,12 @@ class HomePage : ControlledPreferenceFragmentCompat() {
             hookCheckPreference = this
             initializeHookCheck()
         }
+
+        findPreference<Preference>(RESTART_LAUNCHER)?.onPreferenceClickListener =
+            Preference.OnPreferenceClickListener {
+                context?.restartLauncher()
+                true
+            }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
