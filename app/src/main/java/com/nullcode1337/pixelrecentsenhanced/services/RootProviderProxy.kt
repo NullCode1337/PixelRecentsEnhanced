@@ -69,7 +69,7 @@ class RootProviderProxy : Service() {
     }
 
     companion object {
-        var TAG: String = "[PLEnhanced] ${RootProviderProxy::class.java.simpleName}: "
+        var TAG: String = "[PREnhanced] ${RootProviderProxy::class.java.simpleName}: "
         private var rootAllowedPacks: List<String> = listOf()
         private var rootGranted: Boolean = false
     }

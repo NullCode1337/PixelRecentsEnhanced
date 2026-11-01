@@ -19,7 +19,7 @@ android {
         targetSdk = 36
         versionCode = 7
         versionName = "2.0.1"
-        base.archivesName = "PLEnhanced v${defaultConfig.versionName}"
+        base.archivesName = "PREnhanced v${defaultConfig.versionName}"
     }
 
     val keystorePropertiesFile = rootProject.file("keystore.properties")

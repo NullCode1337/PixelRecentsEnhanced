@@ -1,7 +1,7 @@
 package com.nullcode1337.pixelrecentsenhanced.utils
 
 import android.content.pm.PackageManager
-import com.nullcode1337.pixelrecentsenhanced.PLEnhanced.Companion.appContext
+import com.nullcode1337.pixelrecentsenhanced.PREnhanced.Companion.appContext
 import com.nullcode1337.pixelrecentsenhanced.data.common.Constants.LAUNCHER3_PACKAGE
 import com.nullcode1337.pixelrecentsenhanced.data.common.Constants.PIXEL_LAUNCHER_PACKAGE
 

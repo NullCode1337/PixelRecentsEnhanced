@@ -118,7 +118,7 @@ class HookEntry : ServiceConnection {
 
     private fun onXPrefsReady(loadPackageParam: LoadPackageParam) {
         if (!isChildProcess && BootLoopProtector.isBootLooped(loadPackageParam.packageName)) {
-            log("[PLEnhanced] Possible crash in ${loadPackageParam.packageName} ; Module will not load for now...")
+            log("[PREnhanced] Possible crash in ${loadPackageParam.packageName} ; Module will not load for now...")
             return
         }
 
@@ -226,8 +226,8 @@ class HookEntry : ServiceConnection {
             }
         }
 
-        log("[PLEnhanced] Version: ${BuildConfig.VERSION_NAME}")
-        log("[PLEnhanced] Hooked ${loadPackageParam.packageName}")
+        log("[PREnhanced] Version: ${BuildConfig.VERSION_NAME}")
+        log("[PREnhanced] Hooked ${loadPackageParam.packageName}")
 
         onXPrefsReady(loadPackageParam)
     }

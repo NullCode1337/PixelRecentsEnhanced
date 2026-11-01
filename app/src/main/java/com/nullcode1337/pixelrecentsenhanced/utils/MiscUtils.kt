@@ -6,7 +6,7 @@ import androidx.core.view.doOnNextLayout
 import android.util.TypedValue
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
-import com.nullcode1337.pixelrecentsenhanced.PLEnhanced.Companion.appContext
+import com.nullcode1337.pixelrecentsenhanced.PREnhanced.Companion.appContext
 import com.nullcode1337.pixelrecentsenhanced.R
 import com.google.android.material.appbar.CollapsingToolbarLayout
 import com.google.android.material.appbar.MaterialToolbar

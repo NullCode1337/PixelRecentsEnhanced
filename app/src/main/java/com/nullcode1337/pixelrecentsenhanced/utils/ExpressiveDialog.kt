@@ -121,7 +121,7 @@ object ExpressiveDialog {
 
         onDismiss?.let { callback -> dialog.setOnDismissListener { callback() } }
         dialog.setCanceledOnTouchOutside(cancelable)
-        dialog.window?.setWindowAnimations(R.style.Animation_PLEnhanced_Dialog)
+        dialog.window?.setWindowAnimations(R.style.Animation_PREnhanced_Dialog)
         dialog.show()
         dialog.window?.decorView?.let { animateIn(it) }
 

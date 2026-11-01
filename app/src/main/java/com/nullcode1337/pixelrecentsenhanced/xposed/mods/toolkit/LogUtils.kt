@@ -17,27 +17,27 @@ fun log(message: Any?) {
 
 fun log(tag: String, message: Any?) {
     XposedBridge.log(
-        "[PLEnhanced] $tag => $message"
+        "[PREnhanced] $tag => $message"
     )
 }
 
 fun <T : Any> log(clazz: T, message: Any?) {
     XposedBridge.log(
-        "[PLEnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $message"
+        "[PREnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $message"
     )
 }
 
 fun <T : Any> log(clazz: T, throwable: Throwable?) {
     DebugRecorder.recordError(clazz.javaClass.simpleName.replace("\$Companion", ""), null, throwable)
     XposedBridge.log(
-        "[PLEnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $throwable"
+        "[PREnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $throwable"
     )
 }
 
 fun <T : Any> log(clazz: T, exception: Exception?) {
     DebugRecorder.recordError(clazz.javaClass.simpleName.replace("\$Companion", ""), null, exception)
     XposedBridge.log(
-        "[PLEnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $exception"
+        "[PREnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $exception"
     )
 }
 
