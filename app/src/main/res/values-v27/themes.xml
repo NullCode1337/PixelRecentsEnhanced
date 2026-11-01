@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.PixelLauncherEnhanced" parent="Base.Theme.PixelLauncherEnhanced">
+    <style name="Theme.PixelRecentsEnhanced" parent="Base.Theme.PixelRecentsEnhanced">
         <item name="android:windowLightNavigationBar">true</item>
     </style>
 </resources>

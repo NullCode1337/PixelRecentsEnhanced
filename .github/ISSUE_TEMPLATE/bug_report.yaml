@@ -7,8 +7,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to file this issue! Here are a few things to check before clicking the submit button :)
-        1. Make sure you're on the latest version of the app. The current release can be found here: https://github.com/Mahmud0808/PixelLauncherEnhanced/releases/latest
-        2. Search through **both** [open and closed issues](https://github.com/Mahmud0808/PixelLauncherEnhanced/issues?q=is%3Aissue%20sort%3Aupdated-desc) for your bug.
+        1. Make sure you're on the latest version of the app. The current release can be found here: https://github.com/NullCode1337/PixelRecentsEnhanced/releases/latest
+        2. Search through **both** [open and closed issues](https://github.com/NullCode1337/PixelRecentsEnhanced/issues?q=is%3Aissue%20sort%3Aupdated-desc) for your bug.
         3. **ALWAYS** fill this template. If you fail to do so, your issue will be immediately closed with no response. Maintaining open source projects for free is hard work, and we expect users to respect that time and effort by putting in a little bit of their own. That helps us fix these problems faster and in return you get a better app — everybody wins.
 
         Note: If this issue is inactive for 90 days, it'll be marked as stale.

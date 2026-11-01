@@ -1,0 +1,44 @@
+package com.nullcode1337.pixelrecentsenhanced.ui.activities
+
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.google.android.material.color.DynamicColors
+import com.nullcode1337.pixelrecentsenhanced.utils.RootShell
+
+@SuppressLint("CustomSplashScreen")
+class SplashActivity : AppCompatActivity() {
+
+    private var keepShowing = true
+    private val runner = Runnable {
+        val isRooted = RootShell.isRootShell()
+
+        runOnUiThread {
+            keepShowing = false
+
+            startActivity(
+                Intent(this@SplashActivity, MainActivity::class.java).apply {
+                    putExtra(MainActivity.EXTRA_IS_ROOTED, isRooted)
+                }
+            )
+            finish()
+        }
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        val splashScreen: SplashScreen = installSplashScreen()
+        super.onCreate(savedInstanceState)
+        splashScreen.setKeepOnScreenCondition { keepShowing }
+        DynamicColors.applyToActivitiesIfAvailable(application)
+        Thread(runner).start()
+    }
+
+    companion object {
+        init {
+            RootShell.init()
+        }
+    }
+}

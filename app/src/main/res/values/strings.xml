@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Pixel Launcher Enhanced</string>
+    <string name="app_name" translatable="false">Pixel Recents Enhanced</string>
     <string name="app_name_shortened" translatable="false">PLEnhanced</string>
     <string name="app_motto">Unleash the full potential of your launcher</string>
     <string name="icon">Icon</string>
@@ -20,7 +20,7 @@
     <string name="xposed_module_bootlooped_title">Bootloop detected</string>
     <string name="xposed_module_bootlooped_desc">Module has been disabled</string>
     <string name="force_close_launcher">Force close launcher</string>
-    <string name="fragment_recents_title">Recents</string>
+    <string name="fragment_recents_title" translatable="false">Pixel Recents Enhanced</string>
     <string name="section_app_menu_title">App menu</string>
     <string name="section_freeform_title">Freeform</string>
     <string name="disable_recents_live_tile_title">Disable recents live tile</string>

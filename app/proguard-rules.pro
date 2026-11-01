@@ -15,8 +15,8 @@
 }
 
 # Activity and Fragment names
--keep class com.drdisagree.pixellauncherenhanced.ui.activities.**
--keep class com.drdisagree.pixellauncherenhanced.ui.fragments.**
+-keep class com.nullcode1337.pixelrecentsenhanced.ui.activities.**
+-keep class com.nullcode1337.pixelrecentsenhanced.ui.fragments.**
 
 # libxposed
 -dontwarn io.github.libxposed.annotation.**
@@ -26,7 +26,7 @@
 }
 
 # Mod packs are instantiated reflectively
--keepclassmembers class * extends com.drdisagree.pixellauncherenhanced.xposed.core.ModPack {
+-keepclassmembers class * extends com.nullcode1337.pixelrecentsenhanced.xposed.core.ModPack {
     public <init>(android.content.Context);
 }
 

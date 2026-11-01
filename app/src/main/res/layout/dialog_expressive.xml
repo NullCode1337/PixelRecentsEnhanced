@@ -26,7 +26,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp">
 
-                <com.drdisagree.pixellauncherenhanced.ui.widgets.ShapeIconView
+                <com.nullcode1337.pixelrecentsenhanced.ui.widgets.ShapeIconView
                     android:id="@+id/dialog_emblem"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />

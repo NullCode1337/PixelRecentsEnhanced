@@ -194,7 +194,7 @@
 
   const release = document.querySelector("[data-release]");
   if (release && window.fetch) {
-    fetch("https://api.github.com/repos/Mahmud0808/PixelLauncherEnhanced/releases/latest", {
+    fetch("https://api.github.com/repos/NullCode1337/PixelRecentsEnhanced/releases/latest", {
       headers: { Accept: "application/vnd.github+json" },
     })
       .then((res) => (res.ok ? res.json() : Promise.reject(res.status)))

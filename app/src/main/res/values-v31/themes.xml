@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.PixelLauncherEnhanced.SplashScreen" parent="Theme.SplashScreen">
+    <style name="Theme.PixelRecentsEnhanced.SplashScreen" parent="Theme.SplashScreen">
         <item name="android:windowSplashScreenBackground">?attr/colorSurface</item>
         <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
         <item name="android:windowSplashScreenIconBackgroundColor">?attr/colorSurfaceContainerHigh</item>
-        <item name="postSplashScreenTheme">@style/Theme.PixelLauncherEnhanced</item>
+        <item name="postSplashScreenTheme">@style/Theme.PixelRecentsEnhanced</item>
     </style>
 </resources>

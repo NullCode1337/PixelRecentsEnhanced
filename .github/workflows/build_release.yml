@@ -18,7 +18,7 @@ permissions:
 jobs:
   build:
     name: Build Release APK
-    if: github.repository_owner == 'Mahmud0808'
+    if: github.repository_owner == 'NullCode1337'
     runs-on: ubuntu-latest
 
     steps:
@@ -59,7 +59,7 @@ jobs:
 
       - name: Write sign info
         id: sign
-        if: github.repository == 'Mahmud0808/PixelLauncherEnhanced'
+        if: github.repository == 'NullCode1337/PixelRecentsEnhanced'
         run: |
           if [ ! -z "${{ secrets.KEYSTORE }}" ]; then
             echo storePassword='${{ secrets.KEYSTORE_PASSWORD }}' >> keystore.properties
