@@ -151,4 +151,10 @@
 
     </com.drdisagree.pixellauncherenhanced.ui.preferences.PreferenceCategory>
 
+    <com.drdisagree.pixellauncherenhanced.ui.preferences.ActionPreference
+        android:key="xposed_restartlauncher"
+        android:summary="@string/restart_launcher_desc"
+        android:title="@string/restart_launcher_title"
+        app:iconSpaceReserved="false" />
+
 </PreferenceScreen>

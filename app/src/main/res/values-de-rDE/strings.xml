@@ -23,6 +23,8 @@
     <string name="disable_recents_live_tile_desc">Live-Kachel deaktivieren, wenn der Anwendungsverlauf fehlerhaft ist</string>
     <string name="recents_background_opacity_title">App-Verlauf Hintergrund Deckkraft</string>
     <string name="restarting_launcher">Launcher wird neu gestartet…</string>
+    <string name="restart_launcher_title">Neustart</string>
+    <string name="restart_launcher_desc">Startet den Startbildschirm neu, um ausstehende Änderungen anzuwenden</string>
     <string name="clear_all_button_title">\"Alle schließen\" Schaltfläche</string>
     <string name="fixed_button_width_title">Feste Breite für jeden Button</string>
     <string name="recents_remove_screenshot_title">Entferne Screenshot Button</string>

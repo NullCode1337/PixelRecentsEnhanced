@@ -23,6 +23,8 @@
     <string name="disable_recents_live_tile_desc">Вимкнути живу плитку, якщо екран нещодавніх глючить</string>
     <string name="recents_background_opacity_title">Прозорість фону нещодавніх додатків</string>
     <string name="restarting_launcher">Перезапуск лаунчера…</string>
+    <string name="restart_launcher_title">Перезапустити</string>
+    <string name="restart_launcher_desc">Перезапустіть лаунчер вручну для подальшого застосування налаштувань</string>
     <string name="clear_all_button_title">Кнопка «Очистити все»</string>
     <string name="fixed_button_width_title">Фіксована ширина для кожної кнопки</string>
     <string name="recents_remove_screenshot_title">Прибрати кнопку знімка екрана</string>
