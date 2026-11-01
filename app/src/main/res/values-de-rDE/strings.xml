@@ -16,7 +16,6 @@
     <string name="xposed_module_bootlooped_title">Bootloop erkannt</string>
     <string name="xposed_module_bootlooped_desc">Modul wurde deaktiviert</string>
     <string name="force_close_launcher">Launcher schließen erzwingen</string>
-    <string name="fragment_recents_title">App-Verlauf</string>
     <string name="section_app_menu_title">App menu</string>
     <string name="section_freeform_title">Freeform</string>
     <string name="disable_recents_live_tile_title">Live-Kachel deaktivieren</string>

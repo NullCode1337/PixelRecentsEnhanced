@@ -16,7 +16,6 @@
     <string name="xposed_module_bootlooped_title">已偵測到啟動循環</string>
     <string name="xposed_module_bootlooped_desc">已停用模組</string>
     <string name="force_close_launcher">強制關閉啟動器</string>
-    <string name="fragment_recents_title">總覽</string>
     <string name="section_app_menu_title">App menu</string>
     <string name="section_freeform_title">Freeform</string>
     <string name="disable_recents_live_tile_title">停用 Recents Live</string>

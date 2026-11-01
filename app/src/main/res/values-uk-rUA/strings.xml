@@ -16,7 +16,6 @@
     <string name="xposed_module_bootlooped_title">Виявлено Bootloop</string>
     <string name="xposed_module_bootlooped_desc">Модуль було вимкнено</string>
     <string name="force_close_launcher">Примусово закрити лаунчер</string>
-    <string name="fragment_recents_title">Нещодавні додатки</string>
     <string name="section_app_menu_title">App menu</string>
     <string name="section_freeform_title">Freeform</string>
     <string name="disable_recents_live_tile_title">Вимкнути живу плитку в нещодавніх</string>

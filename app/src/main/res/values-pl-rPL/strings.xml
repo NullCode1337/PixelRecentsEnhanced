@@ -16,7 +16,6 @@
     <string name="xposed_module_bootlooped_title">Wykryto pętlę rozruchową</string>
     <string name="xposed_module_bootlooped_desc">Moduł został wyłączony</string>
     <string name="force_close_launcher">Wymuś zamknięcie launchera</string>
-    <string name="fragment_recents_title">Ostatnie aplikacje</string>
     <string name="section_app_menu_title">Menu aplikacji</string>
     <string name="section_freeform_title">Tryb swobodny</string>
     <string name="disable_recents_live_tile_title">Wyłącz podgląd na żywo w ostatnich aplikacjach</string>

@@ -17,14 +17,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:localeConfig="@xml/locales_config"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PixelLauncherEnhanced"
+        android:theme="@style/Theme.PixelRecentsEnhanced"
         tools:targetApi="33">
         <activity
             android:name=".ui.activities.SplashActivity"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
             android:roundIcon="@mipmap/ic_launcher_round"
-            android:theme="@style/Theme.PixelLauncherEnhanced.SplashScreen">
+            android:theme="@style/Theme.PixelRecentsEnhanced.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,7 +34,7 @@
         <activity
             android:name=".ui.activities.MainActivity"
             android:exported="false"
-            android:theme="@style/Theme.PixelLauncherEnhanced" />
+            android:theme="@style/Theme.PixelRecentsEnhanced" />
 
         <service
             android:name=".services.RootProviderProxy"

@@ -15,29 +15,22 @@
 }
 
 # Activity and Fragment names
--keep class com.drdisagree.pixellauncherenhanced.ui.activities.**
--keep class com.drdisagree.pixellauncherenhanced.ui.fragments.**
+-keep class com.nullcode1337.pixelrecentsenhanced.ui.activities.**
+-keep class com.nullcode1337.pixelrecentsenhanced.ui.fragments.**
 
 # Xposed framework stubs
 -keep class de.robv.android.xposed.** { *; }
 
 # Xposed entry points (called directly by the framework)
--keep class com.drdisagree.pixellauncherenhanced.xposed.InitHook {
+-keep class com.nullcode1337.pixelrecentsenhanced.xposed.InitHook {
     public <init>();
 }
 -keep class * implements de.robv.android.xposed.IXposedHookLoadPackage
 -keep class * implements de.robv.android.xposed.IXposedHookInitPackageResources
 
 # Optimize method bodies, preserve Xposed lifecycle signatures
--keepclassmembers class * extends com.drdisagree.pixellauncherenhanced.xposed.ModPack {
+-keepclassmembers class * extends com.nullcode1337.pixelrecentsenhanced.xposed.ModPack {
     public <init>(android.content.Context);
-}
--keepclassmembers,allowoptimization,allowobfuscation class com.drdisagree.iconify.xposed.** {
-    public <init>();
-    public <init>(android.content.Context);
-    public void initZygote(de.robv.android.xposed.IXposedHookZygoteInit$StartupParam);
-    public void handleLoadPackage(de.robv.android.xposed.callbacks.XC_LoadPackage$LoadPackageParam);
-    public void handleInitPackageResources(de.robv.android.xposed.callbacks.XC_InitPackageResources$InitPackageResourcesParam);
 }
 
 # Hook callbacks
@@ -50,8 +43,8 @@
 }
 
 # XPrefs: name and public API must be stable for cross-process access
--keepnames class com.drdisagree.pixellauncherenhanced.xposed.utils.XPrefs
--keepclassmembers,allowoptimization,allowobfuscation class com.drdisagree.pixellauncherenhanced.xposed.utils.XPrefs {
+-keepnames class com.nullcode1337.pixelrecentsenhanced.xposed.utils.XPrefs
+-keepclassmembers,allowoptimization,allowobfuscation class com.nullcode1337.pixelrecentsenhanced.xposed.utils.XPrefs {
     public *;
 }
 

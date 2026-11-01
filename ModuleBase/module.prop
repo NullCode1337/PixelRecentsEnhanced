@@ -1,7 +1,7 @@
 id=PLEnhanced
-name=Pixel Launcher Enhanced
+name=Pixel Recents Enhanced
 version=1
 versionCode=1
-author=DrDisagree
+author=NullCode1337
 description=An Xposed module to unleash the full potential of your launcher!
 minMagisk=25000

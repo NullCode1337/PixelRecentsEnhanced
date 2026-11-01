@@ -16,7 +16,6 @@
     <string name="xposed_module_bootlooped_title">Açılış döngüsü algılandı</string>
     <string name="xposed_module_bootlooped_desc">Modül devre dışı bırakıldı</string>
     <string name="force_close_launcher">Başlatıcıyı zorla durdur</string>
-    <string name="fragment_recents_title">Son uygulamalar</string>
     <string name="section_app_menu_title">Uygulama menüsü</string>
     <string name="section_freeform_title">Serbest pencere modu</string>
     <string name="disable_recents_live_tile_title">Canlı önizlemeyi kapat</string>

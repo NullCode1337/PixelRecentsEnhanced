@@ -15,7 +15,7 @@ on:
 jobs:
   build:
     name: Build Debug APK
-    if: github.repository_owner == 'Mahmud0808'
+    if: github.repository_owner == 'NullCode1337'
     runs-on: ubuntu-latest
 
     steps:
@@ -33,7 +33,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Write sign info
-        if: github.repository == 'Mahmud0808/PixelLauncherEnhanced'
+        if: github.repository == 'NullCode1337/PixelRecentsEnhanced'
         run: |
           if [ ! -z "${{ secrets.KEYSTORE }}" ]; then
             echo storePassword='${{ secrets.KEYSTORE_PASSWORD }}' >> keystore.properties
@@ -89,7 +89,7 @@ jobs:
 
           HEADERS=$(echo "$HEADERS" \
             | sed -E 's/^Merge remote-tracking branch.*/Synced with the latest changes/' \
-            | sed -E 's|.*Mahmud0808/localization$|Updated translation strings|' \
+            | sed -E 's|.*NullCode1337/localization$|Updated translation strings|' \
             | grep -v -E '\.(md|yml)' \
             | sed '/^[[:space:]]*$/d' \
             | awk '!seen[$0]++' || true)
@@ -134,7 +134,7 @@ jobs:
           rm -rf "$RELEASE_DIR/temp"
 
       - name: Telegram File Attachment
-        if: github.repository == 'Mahmud0808/PixelLauncherEnhanced' && env.SKIP_BUILD != 'true'
+        if: github.repository == 'NullCode1337/PixelRecentsEnhanced' && env.SKIP_BUILD != 'true'
         run: |
           set -e
           curl -v "https://api.telegram.org/bot${{ secrets.TG_BOT_TOKEN }}/sendMediaGroup" \
@@ -147,13 +147,13 @@ jobs:
             -F disable_notification=true || exit 1
 
       - name: Remember notified commit
-        if: github.repository == 'Mahmud0808/PixelLauncherEnhanced' && env.SKIP_BUILD != 'true'
+        if: github.repository == 'NullCode1337/PixelRecentsEnhanced' && env.SKIP_BUILD != 'true'
         run: |
           mkdir -p .ci
           echo "${{ github.sha }}" > .ci/last_notified_sha
 
       - name: Save last notified commit
-        if: github.repository == 'Mahmud0808/PixelLauncherEnhanced' && env.SKIP_BUILD != 'true'
+        if: github.repository == 'NullCode1337/PixelRecentsEnhanced' && env.SKIP_BUILD != 'true'
         uses: actions/cache/save@v4
         with:
           path: .ci/last_notified_sha

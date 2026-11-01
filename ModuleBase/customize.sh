@@ -1,4 +1,4 @@
-PKGNAME="com.drdisagree.pixellauncherenhanced"
+PKGNAME="com.nullcode1337.pixelrecentsenhanced"
 NEXUSLAUNCHER="com.google.android.apps.nexuslauncher"
 LAUNCHER3="com.android.launcher3"
 LSPDDBPATH="/data/adb/lspd/config/modules_config.db"

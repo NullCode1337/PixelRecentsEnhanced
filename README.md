@@ -1,15 +1,15 @@
-![HEAD](https://socialify.git.ci/Mahmud0808/PixelLauncherEnhanced/image?description=1&font=Jost&forks=1&issues=1&logo=https%3A%2F%2Fi.postimg.cc%2FL4c2ZS1x%2FPLEnhanced.png&name=1&owner=1&pattern=Transparent&pulls=1&stargazers=1&theme=Auto)
+![HEAD](https://socialify.git.ci/NullCode1337/PixelRecentsEnhanced/image?description=1&font=Jost&forks=1&issues=1&logo=https%3A%2F%2Fi.postimg.cc%2FL4c2ZS1x%2FPLEnhanced.png&name=1&owner=1&pattern=Transparent&pulls=1&stargazers=1&theme=Auto)
 
 <p align="center">
-Pixel Launcher Enhanced is an Xposed module designed to unlock a variety of exciting features for your launcher. Even though the name suggests it's for Pixel Launcher, it also fully supports Launcher3. From customizing the look to adding more functionality, this module enhances your launcher experience with minimal effort.
+Pixel Recents Enhanced is an Xposed module designed to unlock a variety of exciting features for your launcher. Even though the name suggests it's for Pixel Launcher, it also fully supports Launcher3. From customizing the look to adding more functionality, this module enhances your launcher experience with minimal effort.
 </p>
 <br>
 <p align="center">
-  <a href="https://github.com/Mahmud0808/PixelLauncherEnhanced/releases"><img src="https://img.shields.io/github/downloads/Mahmud0808/PixelLauncherEnhanced/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="Downloads"></a>
-  <a href="https://github.com/Mahmud0808/PixelLauncherEnhanced"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/Mahmud0808/PixelLauncherEnhanced?style=for-the-badge"></a>
+  <a href="https://github.com/NullCode1337/PixelRecentsEnhanced/releases"><img src="https://img.shields.io/github/downloads/NullCode1337/PixelRecentsEnhanced/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="Downloads"></a>
+  <a href="https://github.com/NullCode1337/PixelRecentsEnhanced"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/NullCode1337/PixelRecentsEnhanced?style=for-the-badge"></a>
   <a href="https://t.me/DrDsProjects"><img src="https://img.shields.io/badge/Telegram-5K+-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
   <br><br>
-  <a href="https://www.buymeacoffee.com/DrDisagree"><img src="https://github.com/Mahmud0808/Iconify/blob/beta/.github/resources/bmc-button.png" width="30%" alt="Buy me a coffee" /></a>
+  <a href="https://www.buymeacoffee.com/NullCode1337"><img src="https://github.com/Mahmud0808/Iconify/blob/beta/.github/resources/bmc-button.png" width="30%" alt="Buy me a coffee" /></a>
 </p>
 
 # 🌟 Feature List
@@ -202,9 +202,9 @@ Pixel Launcher Enhanced is an Xposed module designed to unlock a variety of exci
 
 # 🔧 Installation
 
-1. Download and install [Pixel Launcher Enhanced APK](https://github.com/Mahmud0808/PixelLauncherEnhanced/releases).
+1. Download and install [Pixel Recents Enhanced APK](https://github.com/NullCode1337/PixelRecentsEnhanced/releases).
 
-2. Grant root access for Pixel Launcher Enhanced app.
+2. Grant root access for Pixel Recents Enhanced app.
 
 3. Enable the module from Xposed manager application.
 
@@ -232,5 +232,12 @@ Root access is a requirement for the following features:
 
 # 🌍 Translations
 
-Want to help translate Pixel Launcher Enhanced into your language? You can contribute translations on
+Want to help translate Pixel Recents Enhanced into your language? You can contribute translations on
 our [Crowdin platform](https://crowdin.com/project/pixellauncher-enhanced).
+
+# 🙏 Credits
+
+Pixel Recents Enhanced is a fork of [Pixel Launcher Enhanced](https://github.com/Mahmud0808/PixelLauncherEnhanced),
+originally created by [DrDisagree](https://github.com/Mahmud0808). The recents implementations, hook
+architecture and much of the surrounding code originate from that project and are used here under the
+terms of the GPL-3.0 license.

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mahmud0808.github.io/PixelLauncherEnhanced/sitemap.xml
+Sitemap: https://mahmud0808.github.io/PixelRecentsEnhanced/sitemap.xml

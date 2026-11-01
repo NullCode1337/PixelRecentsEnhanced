@@ -16,7 +16,6 @@
     <string name="xposed_module_bootlooped_title">تم اكتشاف حلقة تمهيد</string>
     <string name="xposed_module_bootlooped_desc">تم تعطيل الوحدة</string>
     <string name="force_close_launcher">فرض إيقاف مشغل التطبيقات</string>
-    <string name="fragment_recents_title">التطبيقات الحديثة</string>
     <string name="section_app_menu_title">App menu</string>
     <string name="section_freeform_title">Freeform</string>
     <string name="disable_recents_live_tile_title">Disable recents live tile</string>

@@ -16,7 +16,6 @@
     <string name="xposed_module_bootlooped_title">检测到 Bootloop</string>
     <string name="xposed_module_bootlooped_desc">模块已禁用</string>
     <string name="force_close_launcher">强制关闭您的桌面 launcher</string>
-    <string name="fragment_recents_title">最近任务</string>
     <string name="section_app_menu_title">应用菜单</string>
     <string name="section_freeform_title">小窗</string>
     <string name="disable_recents_live_tile_title">禁用多任务栏中动态 tile</string>

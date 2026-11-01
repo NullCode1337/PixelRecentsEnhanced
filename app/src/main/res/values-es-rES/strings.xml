@@ -16,7 +16,6 @@
     <string name="xposed_module_bootlooped_title">Bootlop detectado</string>
     <string name="xposed_module_bootlooped_desc">El módulo ha sido deshabilitado</string>
     <string name="force_close_launcher">Forzar cierre del launcher</string>
-    <string name="fragment_recents_title">Recientes</string>
     <string name="section_app_menu_title">App menu</string>
     <string name="section_freeform_title">Freeform</string>
     <string name="disable_recents_live_tile_title">Desactivar mosaico en vivo recientes</string>

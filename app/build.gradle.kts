@@ -10,11 +10,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.drdisagree.pixellauncherenhanced"
+    namespace = "com.nullcode1337.pixelrecentsenhanced"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.drdisagree.pixellauncherenhanced"
+        applicationId = "com.nullcode1337.pixelrecentsenhanced"
         minSdk = 31
         targetSdk = 36
         versionCode = 7
