@@ -15,10 +15,8 @@ import android.os.Process
 import android.os.SystemClock
 import com.drdisagree.pixellauncherenhanced.BuildConfig
 import com.drdisagree.pixellauncherenhanced.R
-import com.drdisagree.pixellauncherenhanced.data.iconpack.IconPackManager
 import com.drdisagree.pixellauncherenhanced.xposed.hook.hookMethod
 import com.drdisagree.pixellauncherenhanced.xposed.hook.ResourceHookManager
-import com.drdisagree.pixellauncherenhanced.xposed.mods.toolkit.WallpaperGlass
 import com.drdisagree.pixellauncherenhanced.xposed.mods.toolkit.log
 import com.drdisagree.pixellauncherenhanced.xposed.prefs.XPrefs
 import com.drdisagree.pixellauncherenhanced.xposed.prefs.XPrefs.Xprefs
@@ -196,8 +194,6 @@ object ModLoader {
         }
         DebugRecorder.registerProbe("runningMods") { runningMods.joinToString { it.javaClass.simpleName } }
         DebugRecorder.registerModInstances { runningMods.toList() }
-        DebugRecorder.registerProbe("wallpaperGlass") { WallpaperGlass.debugState() }
-        DebugRecorder.registerProbe("iconPacks") { IconPackManager.debugState() }
         DebugRecorder.registerProbe("activities") {
             val thread = Reflection.callStaticMethod(Class.forName("android.app.ActivityThread"), "currentActivityThread")
             (Reflection.getObjectField(thread, "mActivities") as? Map<*, *>)?.values?.joinToString { record ->

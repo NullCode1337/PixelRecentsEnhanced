@@ -4,14 +4,6 @@ import android.content.Context
 import android.content.SharedPreferences
 import com.drdisagree.pixellauncherenhanced.data.common.Constants.DEBUG_REPORT_RESPONSE
 import com.drdisagree.pixellauncherenhanced.data.common.Constants.SHARED_PREFERENCES
-import com.drdisagree.pixellauncherenhanced.data.common.Constants.SHORTCUTS_RESPONSE
-import com.drdisagree.pixellauncherenhanced.data.common.Constants.UPDATE_AUTO_CHECK
-import com.drdisagree.pixellauncherenhanced.data.common.Constants.UPDATE_CACHE
-import com.drdisagree.pixellauncherenhanced.data.common.Constants.UPDATE_LAST_CHECK
-import com.drdisagree.pixellauncherenhanced.data.common.Constants.UPDATE_NOTIFICATION_ASKED
-import com.drdisagree.pixellauncherenhanced.data.common.Constants.UPDATE_NOTIFIED
-import com.drdisagree.pixellauncherenhanced.data.common.Constants.UPDATE_NOTIFY
-import com.drdisagree.pixellauncherenhanced.data.common.Constants.UPDATE_SKIPPED
 import com.drdisagree.pixellauncherenhanced.data.config.RPrefs
 import io.github.libxposed.service.XposedService
 import java.util.concurrent.Executors
@@ -21,15 +13,7 @@ object RemotePrefsSync {
     private const val CHUNK_SIZE = 25
 
     private val localOnlyKeys = setOf(
-        DEBUG_REPORT_RESPONSE,
-        SHORTCUTS_RESPONSE,
-        UPDATE_AUTO_CHECK,
-        UPDATE_CACHE,
-        UPDATE_LAST_CHECK,
-        UPDATE_SKIPPED,
-        UPDATE_NOTIFIED,
-        UPDATE_NOTIFICATION_ASKED,
-        UPDATE_NOTIFY
+        DEBUG_REPORT_RESPONSE
     )
 
     private val executor = Executors.newSingleThreadExecutor()

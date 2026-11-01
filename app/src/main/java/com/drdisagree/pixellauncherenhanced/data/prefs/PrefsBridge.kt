@@ -10,7 +10,6 @@ object PrefsBridge {
     const val METHOD_WRITE = "write"
     const val METHOD_SYNC = "sync"
     const val METHOD_READ = "read"
-    const val CUSTOM_ICON_PATH = "customicon"
     const val CHANGES_PATH = "changed"
 
     private const val KEY_VALUES = "values"
@@ -23,8 +22,6 @@ object PrefsBridge {
     fun changeUri(key: String): Uri = changesUri.buildUpon().appendPath(key).build()
 
     fun changedKey(uri: Uri?): String? = uri?.pathSegments?.takeIf { it.firstOrNull() == CHANGES_PATH }?.getOrNull(1)
-
-    fun customIconUri(key: String): Uri = uri.buildUpon().appendPath(CUSTOM_ICON_PATH).appendPath(key).build()
 
     fun encode(values: Map<String, Any?>, removed: Collection<String>): Bundle {
         val bundle = Bundle()
