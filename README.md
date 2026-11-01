@@ -1,15 +1,15 @@
 ![HEAD](https://socialify.git.ci/NullCode1337/PixelRecentsEnhanced/image?description=1&font=Jost&forks=1&issues=1&logo=https%3A%2F%2Fi.postimg.cc%2FL4c2ZS1x%2FPREnhanced.png&name=1&owner=1&pattern=Transparent&pulls=1&stargazers=1&theme=Auto)
 
 <p align="center">
-Pixel Recents Enhanced is an Xposed module designed to unlock a variety of exciting features for your launcher. Even though the name suggests it's for Pixel Launcher, it also fully supports Launcher3. From customizing the look to adding more functionality, this module enhances your launcher experience with minimal effort.
+Pixel Recents Enhanced is an Xposed module designed to unlock a variety of exciting features for your launcher recents. Even though the name suggests it's for Pixel Launcher, it also fully supports Launcher3. From customizing the look to adding more functionality, this module enhances your launcher experience with minimal effort.
 </p>
 <br>
 <p align="center">
   <a href="https://github.com/NullCode1337/PixelRecentsEnhanced/releases"><img src="https://img.shields.io/github/downloads/NullCode1337/PixelRecentsEnhanced/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="Downloads"></a>
   <a href="https://github.com/NullCode1337/PixelRecentsEnhanced"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/NullCode1337/PixelRecentsEnhanced?style=for-the-badge"></a>
-  <a href="https://t.me/DrDsProjects"><img src="https://img.shields.io/badge/Telegram-5K+-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://t.me/nullroms"><img src="https://img.shields.io/badge/Telegram-5K+-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
   <br><br>
-  <a href="https://www.buymeacoffee.com/NullCode1337"><img src="https://github.com/Mahmud0808/Iconify/blob/beta/.github/resources/bmc-button.png" width="30%" alt="Buy me a coffee" /></a>
+  <a href="https://donate.null.sarl"><img src="https://github.com/Mahmud0808/Iconify/blob/beta/.github/resources/bmc-button.png" width="30%" alt="Buy me a coffee" /></a>
 </p>
 
 # 🌟 Feature List
@@ -17,135 +17,6 @@ Pixel Recents Enhanced is an Xposed module designed to unlock a variety of excit
 > ✅ Fully supported
 > ⚠️ Partially supported
 > 🚫 Not supported
-
-<details>
-<summary>Home screen</summary>
-
-| Feature                     | Pixel Launcher | Launcher3 Launcher |
-|-----------------------------|:--------------:|:------------------:|
-| Homescreen columns and rows |       ✅        |         ✅          |
-| Icon labels on desktop      |       ✅        |         ✅          |
-| Page transitions            |       ✅        |         ✅          |
-| Endless page scrolling      |       ✅        |         ✅          |
-| Hide At A Glance            |       ✅        |         ✅          |
-| Lock layout                 |       ✅        |         ✅          |
-| Wallpaper zooming           |       ✅        |         ✅          |
-| Hide statusbar              |       ✅        |         ✅          |
-| Hide top shadow             |       ✅        |         ✅          |
-| Dark statusbar icon         |       ✅        |         ✅          |
-| Hide page indicator         |       ✅        |         ✅          |
-| Dark page indicator         |       ✅        |         ✅          |
-
-</details>
-
-<details>
-<summary>Dock</summary>
-
-| Feature                             | Pixel Launcher | Launcher3 Launcher |
-|-------------------------------------|:--------------:|:------------------:|
-| Disable dock                        |       ✅        |         ✅          |
-| Hide desktop search bar             |       ✅        |         ✅          |
-| Search bar above dock icons         |       ✅        |         ✅          |
-| Dock frosted and liquid glass       |       ✅        |         ✅          |
-| Dock tint color                     |       ✅        |         ✅          |
-| Floating or attached dock           |       ✅        |         ✅          |
-| Dock margin, padding and corner     |       ✅        |         ✅          |
-| Dock top and bottom spacing         |       ✅        |         ✅          |
-| Search bar frosted and liquid glass |       ✅        |         🚫          |
-
-</details>
-
-<details>
-<summary>Folders</summary>
-
-| Feature                         | Pixel Launcher | Launcher3 Launcher |
-|---------------------------------|:--------------:|:------------------:|
-| Folder columns and rows         |       ✅        |         ✅          |
-| Tap folder to open first app    |       ✅        |         ✅          |
-| Folder cover mode               |       ✅        |         ✅          |
-| Folder frosted and liquid glass |       ✅        |         ✅          |
-| Folder background tint          |       ✅        |         ✅          |
-
-</details>
-
-<details>
-<summary>Widgets</summary>
-
-| Feature                         | Pixel Launcher | Launcher3 Launcher |
-|---------------------------------|:--------------:|:------------------:|
-| Free widget resizing            |       ✅        |         ✅          |
-| Widget frosted and liquid glass |       ✅        |         ✅          |
-| Remove widget backgrounds       |       ✅        |         ✅          |
-
-</details>
-
-<details>
-<summary>App drawer</summary>
-
-| Feature                                  | Pixel Launcher | Launcher3 Launcher |
-|------------------------------------------|:--------------:|:------------------:|
-| App drawer columns                       |       ✅        |         ✅          |
-| Row height multiplier                    |       ✅        |         ✅          |
-| Icon labels in app drawer                |       ✅        |         ✅          |
-| Show long app names                      |       ✅        |         ✅          |
-| Hide apps from app drawer                |       ✅        |         ✅          |
-| Search hidden apps                       |       ✅        |         ✅          |
-| Toggle hidden apps from homescreen popup |       ✅        |         ✅          |
-| App drawer background opacity            |       ✅        |         ✅          |
-| Hide scrollbar                           |       ✅        |         ✅          |
-| Hide drag handle                         |       ✅        |         ✅          |
-| Scroll fade                              |       ✅        |         ✅          |
-| Toggle app search bar                    |       ✅        |         ✅          |
-| App search bar frosted and liquid glass  |       ✅        |         ✅          |
-| Quick launch                             |       ✅        |         ✅          |
-| App drawer tabs                          |       ✅        |         ✅          |
-| Tabs at the bottom                       |       ✅        |         ✅          |
-| Edit apps in built-in tabs               |       ✅        |         ✅          |
-| Disable app drawer                       |       ✅        |         ✅          |
-
-</details>
-
-<details>
-<summary>Icons</summary>
-
-| Feature                        | Pixel Launcher | Launcher3 Launcher |
-|--------------------------------|:--------------:|:------------------:|
-| Icon packs with fallback order |       ✅        |         ✅          |
-| Themed icon packs              |       ✅        |         ✅          |
-| Per-app icons                  |       ✅        |         ✅          |
-| Per-app themed icons           |       ✅        |         ✅          |
-| Separate home screen icons     |       ✅        |         ✅          |
-| Rename apps and shortcuts      |       ✅        |         ✅          |
-| Home screen shortcut icons     |       ✅        |         ✅          |
-| Custom icon shape              |       ✅        |         ✅          |
-| Icon size                      |       ✅        |         ✅          |
-| Text size                      |       ✅        |         ✅          |
-| Remove shortcut icon badge     |       ✅        |         ✅          |
-| Themed icons                   |       ✅        |         ✅          |
-| Themed icons in app drawer     |       ✅        |         ✅          |
-| Force themed icons             |       ✅        |         ✅          |
-| Frosted and liquid glass icons |       ✅        |         ✅          |
-| Custom themed icon color       |       ✅        |         ✅          |
-| Notification dot count         |       ✅        |         ✅          |
-| Hide notification dots per app |       ✅        |         ✅          |
-| Edit app in app popup          |       ✅        |         ✅          |
-| Kill app in app popup          |       ✅        |         ✅          |
-| Uninstall in app popup         |       ✅        |         ✅          |
-
-</details>
-
-<details>
-<summary>Gestures</summary>
-
-| Feature                        | Pixel Launcher | Launcher3 Launcher |
-|--------------------------------|:--------------:|:------------------:|
-| Double tap actions             |       ✅        |         ✅          |
-| Pinch in and out actions       |       ✅        |         ✅          |
-| Icon swipe up and down actions |       ✅        |         ✅          |
-| Hide gesture indicator         |       ✅        |         ✅          |
-| Hide navigation bar space      |       ✅        |         ✅          |
-
-</details>
 
 <details>
 <summary>Recents</summary>
@@ -163,32 +34,6 @@ Pixel Recents Enhanced is an Xposed module designed to unlock a variety of excit
 | Disable selection          |       ✅        |         🚫          |
 | Memory info in recents     |       ✅        |         ✅          |
 | Recents background opacity |       ✅        |         ✅          |
-
-</details>
-
-<details>
-<summary>Backup & restore</summary>
-
-| Feature                    | Pixel Launcher | Launcher3 Launcher |
-|----------------------------|:--------------:|:------------------:|
-| Back up home screen layout |       ✅        |         ✅          |
-| Restore home screen layout |       ✅        |         ✅          |
-| Back up app drawer layout  |       ✅        |         ✅          |
-| Restore app drawer layout  |       ✅        |         ✅          |
-| Back up settings           |       ✅        |         ✅          |
-| Restore settings           |       ✅        |         ✅          |
-
-</details>
-
-<details>
-<summary>Advanced</summary>
-
-| Feature                                  | Pixel Launcher | Launcher3 Launcher |
-|------------------------------------------|:--------------:|:------------------:|
-| Prevent wallpaper dimming caused restart |       ✅        |         ✅          |
-| Developer options                        |       ✅        |         🚫          |
-| Show entry in launcher settings          |       ✅        |         ✅          |
-| Show entry in homescreen popup           |       ✅        |         ✅          |
 
 </details>
 
@@ -229,11 +74,6 @@ Root access is a requirement for the following features:
 - Home screen layout backup and restore
 
 - Restart launcher
-
-# 🌍 Translations
-
-Want to help translate Pixel Recents Enhanced into your language? You can contribute translations on
-our [Crowdin platform](https://crowdin.com/project/pixellauncher-enhanced).
 
 # 🙏 Credits
 
