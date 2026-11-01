@@ -25,6 +25,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PLEnhanced"
+rootProject.name = "PREnhanced"
 include(":app")
  

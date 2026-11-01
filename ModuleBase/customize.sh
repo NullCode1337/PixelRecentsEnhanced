@@ -6,8 +6,8 @@ MAGISKDBPATH="/data/adb/magisk.db"
 
 prepareAPK() {
   ui_print '- Unzipping APK...'
-	unzip $ZIPFILE 'PLEnhanced.apk' -d $TMPDIR/ > /dev/null
-	APKPATH="$TMPDIR/PLEnhanced.apk"
+	unzip $ZIPFILE 'PREnhanced.apk' -d $TMPDIR/ > /dev/null
+	APKPATH="$TMPDIR/PREnhanced.apk"
 }
 
 prepareSQL() {
@@ -17,14 +17,14 @@ prepareSQL() {
 }
 
 installAPK() {
-  ui_print "- Installing PLEnhanced.apk..."
+  ui_print "- Installing PREnhanced.apk..."
 
   if pm install "$APKPATH" > /dev/null 2>&1; then
     ui_print "- Installation successful."
   else
     if pm list packages | grep -q "$PKGNAME"; then
       ui_print "! Version code / signature mismatch."
-      abort "! Uninstall existing PLEnhanced app and flash the module again."
+      abort "! Uninstall existing PREnhanced app and flash the module again."
     else
       ui_print "! Installation failed."
       abort "! Please unzip and install the APK manually."
@@ -35,7 +35,7 @@ installAPK() {
 launchApp() {
   sleep 1
   if pm list packages | grep -q "$PKGNAME"; then
-    ui_print "- Launching PLEnhanced..."
+    ui_print "- Launching PREnhanced..."
     am start -n $PKGNAME/$PKGNAME.ui.activities.SplashActivity
   fi
 }

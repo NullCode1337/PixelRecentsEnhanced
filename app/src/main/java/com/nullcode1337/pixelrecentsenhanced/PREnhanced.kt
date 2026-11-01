@@ -7,10 +7,10 @@ import com.nullcode1337.pixelrecentsenhanced.data.prefs.RemotePrefsSync
 import com.google.android.material.color.DynamicColors
 import java.lang.ref.WeakReference
 
-class PLEnhanced : Application() {
+class PREnhanced : Application() {
 
     companion object {
-        private var instance: PLEnhanced? = null
+        private var instance: PREnhanced? = null
         private var contextReference: WeakReference<Context>? = null
 
         val appContext: Context
@@ -23,9 +23,9 @@ class PLEnhanced : Application() {
                 return contextReference!!.get()!!
             }
 
-        private fun getInstance(): PLEnhanced {
+        private fun getInstance(): PREnhanced {
             if (instance == null) {
-                instance = PLEnhanced()
+                instance = PREnhanced()
             }
             return instance!!
         }

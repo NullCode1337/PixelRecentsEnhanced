@@ -78,11 +78,11 @@ object ModLoader {
         val packageName = ModuleRuntime.loadedPackage.packageName
         XPrefs.awaitSeed()
 
-        log("[PLEnhanced] Version: ${BuildConfig.VERSION_NAME}")
-        log("[PLEnhanced] Hooked $packageName via ${ModuleRuntime.module.frameworkName} API ${ModuleRuntime.apiVersion}")
+        log("[PREnhanced] Version: ${BuildConfig.VERSION_NAME}")
+        log("[PREnhanced] Hooked $packageName via ${ModuleRuntime.module.frameworkName} API ${ModuleRuntime.apiVersion}")
 
         if (BootLoopProtector.isBootLooped(packageName)) {
-            log("[PLEnhanced] Possible crash in $packageName ; Module will not load for now...")
+            log("[PREnhanced] Possible crash in $packageName ; Module will not load for now...")
             return
         }
 

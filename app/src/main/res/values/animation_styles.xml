@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Animation.PLEnhanced.Dialog" parent="">
+    <style name="Animation.PREnhanced.Dialog" parent="">
         <item name="android:windowEnterAnimation">@anim/dialog_fade_in</item>
         <item name="android:windowExitAnimation">@anim/dialog_exit</item>
     </style>

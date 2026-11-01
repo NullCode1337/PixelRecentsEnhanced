@@ -18,31 +18,31 @@ fun log(message: Any?) {
 
 fun log(tag: String, message: Any?) {
     writeLog(
-        "[PLEnhanced] $tag => $message"
+        "[PREnhanced] $tag => $message"
     )
 }
 
 fun <T : Any> log(clazz: T, message: Any?) {
     writeLog(
-        "[PLEnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $message"
+        "[PREnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $message"
     )
 }
 
 fun <T : Any> log(clazz: T, throwable: Throwable?) {
     DebugRecorder.recordError(clazz.javaClass.simpleName.replace("\$Companion", ""), null, throwable)
     writeLog(
-        "[PLEnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $throwable"
+        "[PREnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $throwable"
     )
 }
 
 fun <T : Any> log(clazz: T, exception: Exception?) {
     DebugRecorder.recordError(clazz.javaClass.simpleName.replace("\$Companion", ""), null, exception)
     writeLog(
-        "[PLEnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $exception"
+        "[PREnhanced] ${clazz.javaClass.simpleName.replace("\$Companion", "")} => $exception"
     )
 }
 
-private const val TAG = "PLEnhanced"
+private const val TAG = "PREnhanced"
 
 private fun writeLog(message: String?) {
     if (ModuleRuntime.isAttached) {

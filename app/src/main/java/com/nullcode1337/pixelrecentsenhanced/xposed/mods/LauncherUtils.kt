@@ -207,7 +207,7 @@ class LauncherUtils(context: Context) : ModPack(context) {
         fun reloadModel() {
             Handler(Looper.getMainLooper()).post {
                 runCatching { mModel.callMethod("forceReload") }
-                    .recoverCatching { mModel.callMethod("forceReload", "PLEnhanced") }
+                    .recoverCatching { mModel.callMethod("forceReload", "PREnhanced") }
                     .onFailure { log(TAG, it) }
             }
         }

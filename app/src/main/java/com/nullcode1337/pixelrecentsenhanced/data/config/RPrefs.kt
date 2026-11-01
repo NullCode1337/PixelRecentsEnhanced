@@ -3,7 +3,7 @@ package com.nullcode1337.pixelrecentsenhanced.data.config
 import android.content.Context.MODE_PRIVATE
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
-import com.nullcode1337.pixelrecentsenhanced.PLEnhanced.Companion.appContext
+import com.nullcode1337.pixelrecentsenhanced.PREnhanced.Companion.appContext
 import com.nullcode1337.pixelrecentsenhanced.data.common.Constants.SHARED_PREFERENCES
 import com.nullcode1337.pixelrecentsenhanced.ui.preferences.SliderPreference
 
