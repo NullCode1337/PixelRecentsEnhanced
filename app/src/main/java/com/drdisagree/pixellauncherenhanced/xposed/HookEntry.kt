@@ -1,8 +1,6 @@
 package com.drdisagree.pixellauncherenhanced.xposed
 
 import de.robv.android.xposed.XposedHelpers
-import com.drdisagree.pixellauncherenhanced.data.iconpack.IconPackManager
-import com.drdisagree.pixellauncherenhanced.xposed.mods.toolkit.WallpaperGlass
 import com.drdisagree.pixellauncherenhanced.xposed.utils.DebugRecorder
 import android.os.SystemClock
 import android.app.Instrumentation
@@ -206,8 +204,6 @@ class HookEntry : ServiceConnection {
         }
         DebugRecorder.registerProbe("runningMods") { runningMods.joinToString { it.javaClass.simpleName } }
         DebugRecorder.registerModInstances { runningMods.toList() }
-        DebugRecorder.registerProbe("wallpaperGlass") { WallpaperGlass.debugState() }
-        DebugRecorder.registerProbe("iconPacks") { IconPackManager.debugState() }
         DebugRecorder.registerProbe("activities") {
             val thread = XposedHelpers.callStaticMethod(Class.forName("android.app.ActivityThread"), "currentActivityThread")
             (XposedHelpers.getObjectField(thread, "mActivities") as? Map<*, *>)?.values?.joinToString { record ->

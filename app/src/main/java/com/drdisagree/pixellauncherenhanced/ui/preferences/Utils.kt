@@ -53,7 +53,6 @@ object Utils {
             for (i in 0..<parent.preferenceCount) {
                 val pref: Preference = parent.getPreference(i)
                 if (pref.key != null && PrefsHelper.isVisible(pref.key)
-                    && pref !is MasterSwitchPreference
                     && pref !is PreferenceCategory
                     && pref !is HookCheckPreference
                 ) {

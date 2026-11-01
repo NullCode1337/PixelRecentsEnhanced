@@ -2,7 +2,6 @@ package com.drdisagree.pixellauncherenhanced
 
 import android.app.Application
 import android.content.Context
-import com.drdisagree.pixellauncherenhanced.utils.UpdateManager
 import com.google.android.material.color.DynamicColors
 import java.lang.ref.WeakReference
 
@@ -35,7 +34,5 @@ class PLEnhanced : Application() {
         instance = this
         contextReference = WeakReference(applicationContext)
         DynamicColors.applyToActivitiesIfAvailable(this)
-        UpdateManager.schedule(this)
-        UpdateManager.cleanup(this)
     }
 }

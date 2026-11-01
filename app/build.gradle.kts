@@ -84,22 +84,13 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)
-    implementation(libs.androidx.recyclerview.selection)
     implementation(libs.androidx.preference.ktx)
-    implementation(libs.androidx.navigation.fragment)
-    implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.su.core)
     implementation(libs.su.service)
-    implementation(libs.su.nio)
     compileOnly(libs.xposedbridge)
     implementation(libs.remotepreferences)
-    implementation(libs.circleimageview)
-    implementation(libs.konfetti.xml)
-    implementation(libs.commonmark)
-    implementation(libs.commonmark.ext.autolink)
 }
 
 tasks.register("printVersionName") {

@@ -8,46 +8,11 @@
         <item name="materialAlertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
     </style>
 
-    <style name="PrefsThemeGlassEditor" parent="PreferenceThemeOverlay.v14.Material">
-        <item name="android:layout">@layout/fragment_preference_container_glass</item>
-        <item name="alertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
-        <item name="android:alertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
-        <item name="materialAlertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
-    </style>
-
     <style name="PrefsThemeCollapsingToolbar" parent="PreferenceThemeOverlay.v14.Material">
         <item name="android:layout">@layout/fragment_preference_container_home</item>
         <item name="alertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
         <item name="android:alertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
         <item name="materialAlertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
-    </style>
-
-    <style name="PrefsThemeNoToolbar" parent="PreferenceThemeOverlay.v14.Material">
-        <item name="android:layout">@layout/fragment_preference_container_no_toolbar</item>
-        <item name="alertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
-        <item name="android:alertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
-        <item name="materialAlertDialogTheme">@style/MaterialComponents.MaterialAlertDialog</item>
-    </style>
-
-    <style name="Widget.MaterialButton" parent="Widget.Material3Expressive.Button">
-        <item name="fontFamily">sans-serif-medium</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:paddingStart">40dp</item>
-        <item name="android:paddingTop">10dp</item>
-        <item name="android:paddingEnd">40dp</item>
-        <item name="android:paddingBottom">12dp</item>
-        <item name="android:minHeight">0dp</item>
-        <item name="android:minWidth">0dp</item>
-        <item name="iconGravity">textStart</item>
-    </style>
-
-    <style name="Widget.MaterialButton.Red" parent="Widget.MaterialButton">
-        <item name="backgroundTint">?attr/colorError</item>
-        <item name="android:textColor">?attr/colorOnError</item>
-        <item name="rippleColor">@color/color_material_ripple_no_tint</item>
     </style>
 
     <style name="PopupMenu.Overflow" parent="Widget.Material3.PopupMenu.Overflow">
@@ -64,11 +29,6 @@
     <style name="PopupMenu.Popup" parent="Widget.Material3.PopupMenu">
         <item name="android:popupBackground">@drawable/bg_popup_menu</item>
         <item name="android:popupElevation">6dp</item>
-    </style>
-
-    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
-        <item name="android:popupBackground">?attr/colorSurfaceVariant</item>
-        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
     </style>
 
     <style name="Widget.App.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
@@ -136,22 +96,6 @@
         <item name="backgroundTint">?attr/colorSurfaceContainerHigh</item>
     </style>
 
-    <style name="ShapeAppearance.SwipeRow.Top" parent="">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSizeTopLeft">20dp</item>
-        <item name="cornerSizeTopRight">20dp</item>
-        <item name="cornerSizeBottomLeft">4dp</item>
-        <item name="cornerSizeBottomRight">4dp</item>
-    </style>
-
-    <style name="ShapeAppearance.SwipeRow.Bottom" parent="">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSizeTopLeft">4dp</item>
-        <item name="cornerSizeTopRight">4dp</item>
-        <item name="cornerSizeBottomLeft">20dp</item>
-        <item name="cornerSizeBottomRight">20dp</item>
-    </style>
-
     <style name="ShapeAppearance.Dialog" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">32dp</item>
@@ -183,11 +127,6 @@
         <item name="buttonBarNegativeButtonStyle">@style/MaterialAlertDialog.Button.Text</item>
         <item name="buttonBarNeutralButtonStyle">@style/MaterialAlertDialog.Button.Text</item>
         <item name="android:backgroundDimAmount">0.5</item>
-    </style>
-
-    <style name="Animation.PLEnhanced.Dialog" parent="">
-        <item name="android:windowEnterAnimation">@anim/dialog_fade_in</item>
-        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
     </style>
 
     <style name="Widget.App.Snackbar" parent="Widget.Material3.Snackbar">
