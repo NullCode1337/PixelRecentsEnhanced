@@ -54,8 +54,8 @@ body:
   - type: textarea
     id: debug-report
     attributes:
-      label: Debug report
-      description: In the app, go to Advanced → Debug report, tap Create report and attach the zip here.
-      placeholder: Drop the debug report zip here. If GitHub won't take it, upload it somewhere and paste the link.
+      label: Logs
+      description: Export the logs from the LSPosed Manager (Logs → save) and attach the file here.
+      placeholder: Drop the log file here. If GitHub won't take it, upload it somewhere and paste the link.
     validations:
       required: true
